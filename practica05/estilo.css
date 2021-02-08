@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial;
+}
+body{
+    background-image:url(img/fondo.png);
+    background-color: #404040;
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    top: 0;
+}
+#capa{
+    width: 100%;
+    position: fixed;
+    background-color: #404040;
+    height: 100%;
+    z-index: 5000;
+    color: #404040;
+}
+#capa div{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    background-color: #a8a8a8;
+    height: 15%;  
+}
+#capa button{
+    width: 40%;
+    height: 30%;
+    background-color: #a8a8a8;
+    border-radius: 20px;
+    border-color: #e96a53;
+    color: #e96a53;
+}
+#capa button:hover{
+    background-color: #e96a53;
+}
+img{
+    z-index: 4000;
+    position: fixed;
+}
+#ojo{
+    right: 0;
+}
+main{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-left: 0.5px solid white;
+}
+article:last-of-type{
+    border-right: 0.5px solid white;
+}
+.contenido{
+    margin: 20% 5%;
+    color: white;
+    visibility: hidden;
+}
+.contenido a{
+    color: #999999;
+    text-decoration: none;
+}
+blockquote,span,small{
+    color: #e96a53;
+}
+article h1{
+    color: white;
+    margin: 20% auto 2% 5%;   
+}
+article h2{
+    margin: 2% auto;
+    color: #999999;
+}
+small{
+    font-size: 0.5em;
+}
+#js{
+    background-image: url(img/javascript.png);
+}
+#py{
+    background-image: url(img/python.png);
+}
+#java{
+    background-image: url(img/java.png);
+}
+.mostrar{
+    visibility: visible;
+}
+.mosOJO{
+    visibility: visible;
+}
