@@ -1,0 +1,66 @@
+nav{
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100%;
+}
+aside{
+    position: fixed;
+    top: 10%;
+    width: 20%;
+    bottom: 0;
+    background-color: grey;
+}
+aside h2{
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 70%;
+    margin: auto 15% 5%;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside button{
+    width: 70%;
+    margin: auto 15% 5%;
+    height: 5%;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+article{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: none;
+    background-color: lightgrey;
+    margin: 10px;
+    line-height: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+}
+article p{
+    margin: 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mostrar{
+    display: inline-block;
+}
+.ocultar{
+    display: none;
+}

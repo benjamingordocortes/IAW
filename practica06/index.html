@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav><h1>Paises que has visitado</h1></nav>
+    <aside>
+        <h2>visibiliza los paises que has visitado</h2>
+        <form action="">
+            <input type="checkbox" value="francia" id="francia"><label for="francia">francia</label>
+            <br>
+            <input type="checkbox" value="españa" id="españa"><label for="españa">españa</label>
+            <br>
+            <input type="checkbox" value="noruega" id="noruega"><label for="noruega">noruega</label>
+            <br>
+            <input type="checkbox" value="alemania" id="alemania"><label for="alemania">alemania</label>
+            <br>      
+            <input type="checkbox" value="irlanda" id="irlanda"><label for="irlanda">irlanda</label>
+            <br>  
+            <input type="checkbox" value="suecia" id="suecia"><label for="suecia">suecia</label>
+            <br>  
+            <input type="checkbox" value="inglaterra" id="inglaterra"><label for="inglaterra">inglaterra</label>
+            <br>  
+            <input type="checkbox" value="finlandia" id="finlandia"><label for="finlandia">finlandia</label>
+            <br> 
+            <input type="checkbox" value="italia" id="italia"><label for="italia">italia</label>
+            <br> 
+            <input type="checkbox" value="grecia" id="grecia"><label for="grecia">grecia</label>
+            <br>  
+
+        </form>
+        <button id="mostrar">mostrar todos</button><br>
+        <button id="ocultar">ocultar todos</button>
+    </aside>
+    <main>
+        <article  data-pais="francia">
+            <p>Francia</p>
+        </article>
+        <article data-pais="españa">
+            <p>España</p>
+        </article>
+        <article data-pais="noruega">
+            <p>Noruega</p>
+        </article>
+        <article data-pais="alemania">
+            <p>Alemania</p>
+        </article>
+        <article data-pais="irlanda">
+            <p>Irlanda</p>
+        </article>
+        <article data-pais="suecia">
+            <p>Suecia</p>
+        </article>
+        <article data-pais="inglaterra">
+            <p>Inglaterra</p>
+        </article>
+        <article data-pais="finlandia">
+            <p>Finlandia</p>
+        </article>
+        <article data-pais="italia">
+            <p>Italia</p>
+        </article>
+        <article data-pais="grecia">
+            <p>Grecia</p>
+        </article>
+        
+    </main>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="accion.js"></script>
+</body>
+</html>
